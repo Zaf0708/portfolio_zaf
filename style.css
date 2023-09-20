@@ -7,7 +7,7 @@
 
 body {
   background: rgb(156, 158, 174) ;
-  font: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 #header {
@@ -59,9 +59,23 @@ nav ul li a::after{
   position: absolute;
   left: 0;
   bottom: -5px;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 nav ul li a:hover::after{
   width: 100%;
+}
+
+.hero-text {
+  margin-top: 10%;
+  font-size: 30px;
+}
+
+.hero-text h1 {
+  margin-top: 4%;
+  font-size: 60px;
+}
+
+.hero-text h1 span {
+  color: #080858;
 }
