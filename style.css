@@ -67,15 +67,31 @@ nav ul li a:hover::after{
 }
 
 .hero-text {
-  margin-top: 10%;
+
   font-size: 30px;
 }
 
 .hero-text h1 {
-  margin-top: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 60px;
 }
 
 .hero-text h1 span {
   color: #080858;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero-pic img {
+  margin: 10px;
+  border-radius: 200px;
+
+
+
 }
