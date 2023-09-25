@@ -202,4 +202,5 @@ nav ul li a:hover::after{
   padding: 40px;
   font-family: 13px;
   font-weight: 300;
+  border-radius: 10px;
 }
