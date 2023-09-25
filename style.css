@@ -161,7 +161,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span {
-  color: #080858;
+  color: #1E3050;
   font-size: 14px;
 }
 
@@ -181,5 +181,18 @@ nav ul li a:hover::after{
 
 .service-list {
   display: flex;
+  align-self: center;
+  justify-content: space-between;
   margin-top: 50px;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-list img {
+  width: 90px;
+  height: auto;
 }
