@@ -178,3 +178,8 @@ nav ul li a:hover::after{
 #services {
   padding: 30px 0;
 }
+
+.service-list {
+  display: flex;
+  margin-top: 50px;
+}
