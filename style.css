@@ -184,6 +184,7 @@ nav ul li a:hover::after{
   gap: 40px;
   margin-top: 50px;
 }
+
 /*
 .service {
   display: flex;
@@ -191,8 +192,8 @@ nav ul li a:hover::after{
   align-items: center;
   flex-wrap: wrap;
 }
+*/
 
-/* } */
 .service-list img {
   width: 80px;
   height: auto;
