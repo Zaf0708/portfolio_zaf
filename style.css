@@ -178,37 +178,38 @@ nav ul li a:hover::after{
 #services {
   padding: 30px 0;
 }
-.service-list {
+.services-list {
   display: flex;
   align-self: center;
   gap: 90px;
   margin-top: 50px;
 }
 
-.service-list img {
+.services-list img {
   width: 80px;
   height: auto;
 }
 
-.service-list div {
+.services-list div {
   background: #676e9f;
   padding: 40px;
   font-family: 13px;
   font-weight: 300;
   border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
 }
 
-.service-list div img {
+.services-list div img {
   margin-bottom: 30px;
 }
 
-.service-list div h2 {
+.services-list div h2 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.service-list div a {
+.services-list div a {
   text-decoration: none;
   color: #ffffff;
   font-size: 12px;
@@ -216,4 +217,7 @@ nav ul li a:hover::after{
   display: inline-block;
 }
 
-
+.services-list div:hover {
+  background:#0f4882;
+  transform: translateY(-10px);
+}
