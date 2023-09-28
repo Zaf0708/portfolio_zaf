@@ -6,7 +6,7 @@
 }
 
 body {
-  background: rgb(189, 196, 224) ;
+  background: rgb(14, 19, 39) ;
   color: rgb(255, 255, 255);
 }
 
@@ -78,7 +78,7 @@ nav ul li a:hover::after{
 }
 
 .hero-text h1 span {
-  color: #080858;
+  color: #167fe7;
 }
 
 .hero-section {
@@ -124,7 +124,7 @@ nav ul li a:hover::after{
 .sub-title {
   font-size: 48px;
   font-weight: 600px;
-  color: #080858;
+  color: #167fe7;
 }
 
 .tab-title {
@@ -144,7 +144,7 @@ nav ul li a:hover::after{
   content: '';
   width: 0;
   height: 3px;
-  background: #03117e;
+  background: #167fe7;
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -161,7 +161,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span {
-  color: #1E3050;
+  color: #167fe7;
   font-size: 14px;
 }
 
@@ -218,6 +218,6 @@ nav ul li a:hover::after{
 }
 
 .services-list div:hover {
-  background:#0f4882;
+  background:#167fe7;
   transform: translateY(-10px);
 }
