@@ -127,6 +127,9 @@ nav ul li a:hover::after{
   color: #167fe7;
 }
 
+.about-col-2 p {
+  margin-top: 10px;
+}
 .tab-title {
   display: flex;
   margin: 20px 0 40px;
