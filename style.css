@@ -6,8 +6,8 @@
 }
 
 body {
-  background: rgb(14, 19, 39) ;
-  color: rgb(255, 255, 255);
+  background: #0e1327 ;
+  color: #ffffff;
 }
 
 #header {
@@ -267,6 +267,7 @@ nav ul li a:hover::after{
   padding: 0 40px;
   text-align: center;
   font-size: 14px;
+  transition: height 0.5s;
 }
 
 .layer h3 {
@@ -285,8 +286,6 @@ nav ul li a:hover::after{
   height: 60px;
   border-radius: 50%;
   text-align: center;
-  transition: height 0.5s;
-  
 }
 
 .work:hover img {
