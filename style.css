@@ -306,4 +306,9 @@ nav ul li a:hover::after{
   border-radius: 6px;
   text-decoration: none;
   color: #ffffff;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #167fe7;
 }
