@@ -392,6 +392,7 @@ nav ul li a:hover::after{
 }
 
 /* ---------- Media Queries for Responsive ---------- */
+
 @media only screen and (max-width: 600px){
 
   .hero-text{
@@ -401,13 +402,12 @@ nav ul li a:hover::after{
   .hero-text h1 {
     font-size: 40px;
   }
-
  .hero-pic {
   text-align: center;
-}
-
+  }
   .hero-pic img {
     margin: 5px;
     width: 60%;
   }
+
 }
