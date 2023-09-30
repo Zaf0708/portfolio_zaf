@@ -380,3 +380,15 @@ nav ul li a:hover::after{
    margin-top: 20px;
    cursor: pointer;
  }
+
+ /* ---------- Footer ---------- */
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #676e9f;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/* ---------- CSS Responsive ---------- */
