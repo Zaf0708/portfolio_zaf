@@ -393,6 +393,10 @@ nav ul li a:hover::after{
 
 /* ---------- Media Queries for Responsive ---------- */
 
+nav .fa-solid {
+  display: none;
+}
+
 @media only screen and (max-width: 600px){
 
   .hero-text{
@@ -409,5 +413,21 @@ nav ul li a:hover::after{
     margin: 5px;
     width: 60%;
   }
-
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background:#167fe7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    padding-top: 30px;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
 }
