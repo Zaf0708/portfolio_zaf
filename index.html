@@ -223,10 +223,10 @@
         <a href="/document/Resumedocx.pdf" download class="btn btn2">Download Resume</a>
       </div>
       <div class="contact-right">
-        <form>
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your email" required>
-          <textarea name="message" rows="10"></textarea>
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your email" required>
+          <textarea name="Message" rows="10"></textarea>
           <button type="submit" class="btn btn2">Submit</button>
         </form>
       </div>
@@ -268,6 +268,17 @@
     sidemenu.style.right = "-200px";
   }
 
+</script>
+<script>
+  const scriptURL = '1X_d4OQGMdOuNs9L1KcHA0Vak6cFr2yIgm_9PPCetfJ3GjJ4uyg5ZNWPv'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
 </script>
 </body>
 </html>
