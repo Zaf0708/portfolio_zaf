@@ -402,7 +402,7 @@ nav .fa-solid {
   display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
 
   .hero-text{
     font-size: 25px;
