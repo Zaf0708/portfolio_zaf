@@ -212,7 +212,6 @@ nav ul li a:hover::after{
 
 .services-list div img {
   margin-bottom: 30px;
-
 }
 
 .services-list div h2 {
@@ -255,7 +254,7 @@ nav ul li a:hover::after{
 
 .work img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
@@ -396,13 +395,13 @@ nav ul li a:hover::after{
   margin-top: 20px;
 }
 
-/* ---------- Media Queries for Responsive ---------- */
+/* ---------- Media Queries for small screen ---------- */
 
 nav .fa-solid {
   display: none;
 }
 
-@media only screen and (max-width: 576px){
+@media screen and (max-width: 576px){
 
   .hero-text{
     font-size: 25px;
@@ -473,4 +472,89 @@ nav .fa-solid {
  color: #167fe7;
  margin-top: -40px;
  display: block;
+}
+
+
+/* ---------- Media Queries for medium screen ---------- */
+
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    background:#167fe7;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  .hero-text{
+    font-size: 26px;
+  }
+  .hero-text h1 {
+    font-size: 45px;
+  }
+ .hero-pic {
+  text-align: center;
+  }
+  .hero-pic img {
+    margin-top: 25px;
+    width: 75%;
+  }
+  nav .fa-solid {
+    display: block;
+    font-size: 35px;
+  }
+  nav ul {
+    background:#167fe7;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .sub-title {
+    font-size: 44px;
+  }
+  .about-col-1, .about-col-2 {
+    flex-basis: 100%;
+  }
+  .about-col-1 {
+    margin-bottom:30px;
+  }
+  .about-col-2 {
+    font-size: 16px;
+  }
+  .tab-links {
+    font-size: 18px;
+    margin-right: 29px;
+  }
+  .services-list {
+    flex-direction: column;
+    width: 75%;
+  }
+  .services-list img {
+    
+  }
+  .contact-left, .contact-right {
+    flex-basis: 100%;
+  }
+  .copyright{
+    font-size: 16px;
+  }
 }
