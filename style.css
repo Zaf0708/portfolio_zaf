@@ -401,7 +401,7 @@ nav .fa-solid {
   display: none;
 }
 
-@media screen and (min-width: 576px){
+@media screen and (max-width: 576px){
 
   .hero-text{
     font-size: 25px;
@@ -480,7 +480,7 @@ nav .fa-solid {
 /* ---------- Media Queries for medium screen ---------- */
 
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   nav ul {
     background:#167fe7;
     position: fixed;
@@ -550,11 +550,11 @@ nav .fa-solid {
   .services-list {
     flex-direction: column;
     width: 75%;
+    margin-left: 50px ;
   }
   .work-list {
-    display: flex;
-    flex-direction: column;
-    width: 550px;
+    width: 100%;
+    
   }
   .contact-left, .contact-right {
     flex-basis: 100%;
