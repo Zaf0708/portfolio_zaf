@@ -596,5 +596,18 @@ nav .fa-solid {
     line-height: 20px;
     text-align: justify;
   }
-
+  .services-list {
+    gap: 35px;
+  }
+  .services-list img {
+    width: 70px;
+    height: auto;
+  }
+  .services-list div {
+    width: 400px;
+    height: 400px;
+  }
+  .services-list div h2 {
+    font-size: 25px;
+  }
 }
