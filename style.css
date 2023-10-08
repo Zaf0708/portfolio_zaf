@@ -410,7 +410,7 @@ nav .fa-solid {
     font-size: 40px;
   }
  .hero-pic {
-  text-align: center;
+    text-align: center;
   }
   .hero-pic img {
     margin: 5px;
@@ -498,8 +498,8 @@ nav .fa-solid {
   .hero-text h1 {
     font-size: 45px;
   }
- .hero-pic {
-  text-align: center;
+  .hero-pic {
+    text-align: center;
   }
   .hero-pic img {
     margin-top: 25px;
@@ -565,6 +565,19 @@ nav .fa-solid {
 /* ---------- Media Queries for large screen ---------- */
 
 @media screen and (max-width: 992px) {
-
-
+  #header {
+    height: 50vh;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  .hero-text {
+    font-size: 20px;
+  }
+  .hero-text h1{
+    font-size: 40px;
+  }
+  .hero-pic img {
+    width: 250px;
+  }
 }
