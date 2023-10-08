@@ -90,7 +90,6 @@ nav ul li a:hover::after{
 .hero-section {
   display: flex;
   margin: 0;
-  /* border: 1px solid rgb(255, 255, 255); */
   border-radius: 11px;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -136,14 +135,15 @@ nav ul li a:hover::after{
 
 .about-col-2 p {
   margin-top: 10px;
-  line-height: 25px;text-align: justify;
+  line-height: 25px;
+  text-align: justify;
 }
 .tab-title {
   display: flex;
   margin: 20px 0 40px;
 }
 
-.tab-links{
+.tab-links {
   margin-right: 50px;
   font-size: 18px;
   font-weight: 500;
@@ -546,6 +546,11 @@ nav .fa-solid {
     font-size: 18px;
     margin-right: 29px;
   }
+  .tab-contents {
+    font-size: 16px;
+    line-height:  20px;
+    text-align: justify;
+  }
   .services-list {
     flex-direction: column;
     width: 75%;
@@ -580,4 +585,16 @@ nav .fa-solid {
   .hero-pic img {
     width: 250px;
   }
+  .about-col-2 p {
+  font-size: 16px;
+  }
+  .tab-links {
+    margin-right: 40px;
+  }
+  .tab-contents {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
 }
