@@ -612,4 +612,7 @@ nav .fa-solid {
   .services-list div h2 {
     font-size: 25px;
   }
+  .work-list img {
+    height:450px;
+  }
 }
