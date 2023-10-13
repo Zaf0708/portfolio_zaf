@@ -558,8 +558,8 @@ nav .fa-solid {
     width: 75%;
     height: auto;
   }
-  .work img{
-    height: 375px;
+  .work-list {
+    height: 850px;
   }
   .contact-left, .contact-right {
     flex-basis: 100%;
@@ -613,6 +613,6 @@ nav .fa-solid {
     font-size: 25px;
   }
   .work-list img {
-    height:450px;
+    height: 450px;
   }
 }
