@@ -613,3 +613,10 @@ nav .fa-solid {
     height: 450px;
   }
 }
+
+/* ---------- Media Queries for large screen ---------- */
+
+@media screen and (max-width: 1200px){
+
+
+}
