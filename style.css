@@ -105,7 +105,7 @@ nav ul li a:hover::after{
 /* ---------- About ---------- */
 
 #about {
-  padding: 50px;
+  padding: 25px;
   color: #ffffff;
 }
 
@@ -449,6 +449,10 @@ nav .fa-solid {
   .about-col-1, .about-col-2 {
     flex-basis: 100%;
   }
+  .about-col-1{
+    padding: 30px;
+    margin-bottom: -30px;
+  }
   .about-col-2 {
     font-size: 14px;
     padding: 25px;
@@ -536,7 +540,7 @@ nav .fa-solid {
   }
   .about-col-1 {
     padding: 70px;
-    margin-top:30px;
+    margin-top: -45px;
   }
   .about-col-2 {
     font-size: 16px;
