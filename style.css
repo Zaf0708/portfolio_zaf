@@ -472,7 +472,7 @@ nav .fa-solid {
   }
 
   #services .container{
-    padding: 30px 80px ;
+    padding: 30px 80px;
   }
 
   .services-list {
@@ -480,7 +480,15 @@ nav .fa-solid {
   }
 
   #portfolio .container{
-    padding: 80px 80px ;
+    padding: 30px 80px;
+    height: 1500px;
+  }
+
+  .work {
+    height: 400px;
+  }
+  .btn{
+    margin-top: 530px;
   }
 
   .contact-left, .contact-right {
