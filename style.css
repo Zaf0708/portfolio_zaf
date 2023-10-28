@@ -487,10 +487,12 @@ nav .fa-solid {
   .work {
     height: 400px;
   }
-  .btn{
+  #portfolio .btn{
     margin-top: 530px;
   }
-
+  #contact .container {
+    padding: 30px 80px;
+  }
   .contact-left, .contact-right {
     flex-basis: 100%;
   }
